@@ -61,6 +61,9 @@
       "category": "public.app-category.developer-tools",
       "hardenedRuntime": true,
       "gatekeeperAssess": false,
+  "extendInfo": {
+    "NSLocalNetworkUsageDescription": "MQTT Explorer requires local network access to discover and connect to your MQTT brokers."
+  },
       "target": [
         {
           "target": "dmg",
@@ -120,7 +123,7 @@
     "@types/mime": "4.0.0",
     "@types/mocha": "10.0.10",
     "@types/mustache": "4.2.6",
-    "@types/node": "26.1.0",
+    "@types/node": "^26.6.6",
     "@types/semver": "7.7.1",
     "@types/sha1": "1.1.5",
     "@types/socket.io": "3.0.2",
